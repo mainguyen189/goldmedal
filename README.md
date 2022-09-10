@@ -4,7 +4,7 @@
 Use Spring Data JPA to power an Olympics analytics web app.
 
 ### Testing
-Here are some example cURL requests and responses to manually test your API endpoints.
+Here are some example cURL requests and responses to manually test API endpoints.
 
 #### Get countries, sorted by name in ascending order 
 
