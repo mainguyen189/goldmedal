@@ -47,23 +47,23 @@ public class GoldMedalController {
         List<GoldMedal> medalsList;
         switch (sortBy) {
             case "year":
-                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByYearAsc(countryName) : GoldMedalRepository.getByCountryOrderByYearDesc(countryName);
+                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByYearAsc(countryName) : goldMedalRepository.getByCountryOrderByYearDesc(countryName);
                 //list of medals sorted by year in the given order
                 break;
             case "season":
-                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderBySeasonAsc(countryName) : GoldMedalRepository.getByCountryOrderBySeasonDesc(countryName);
+                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderBySeasonAsc(countryName) : goldMedalRepository.getByCountryOrderBySeasonDesc(countryName);
                 //list of medals sorted by season in the given order
                 break;
             case "city": 
-                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByCityAsc(countryName) : GoldMedalRepository.getByCountryOrderByCityDesc(countryName);
+                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByCityAsc(countryName) : goldMedalRepository.getByCountryOrderByCityDesc(countryName);
                 //list of medals sorted by city in the given order
                 break;
             case "name":
-                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByNameAsc(countryName) : GoldMedalRepository.getByCountryOrderByNameDesc(countryName);
+                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByNameAsc(countryName) : goldMedalRepository.getByCountryOrderByNameDesc(countryName);
                 //ist of medals sorted by athlete's name in the given order
                 break;
             case "event":
-                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByEventAsc(countryName) : GoldMedalRepository.getByCountryOrderByEventDesc(countryName);
+                medalsList = ascendingOrder ? goldMedalRepository.getByCountryOrderByEventAsc(countryName) : goldMedalRepository.getByCountryOrderByEventDesc(countryName);
                 //list of medals sorted by event in the given order
                 break;
             default:
