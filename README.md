@@ -1,4 +1,3 @@
-# Gold Medal Metrics Challenge Project
+# Gold Medal Project
 
-### Overview
 Use Spring Data JPA for queries
