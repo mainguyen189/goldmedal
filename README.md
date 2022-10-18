@@ -1,3 +1,5 @@
 # Gold Medal Project
 
-Use Spring Data JPA for queries
+Spring Data JPA for queries
+
+start on: localhost:8811
