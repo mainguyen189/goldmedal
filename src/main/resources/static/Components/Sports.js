@@ -59,15 +59,15 @@ class Sports extends React.Component {
       <table className="country-table">
         <tbody>
         <tr className="table-header country-header">
-          <th>SPORT NAME
+          <th>Sport name
             <img className="sort" alt="Sort Ascending" src="img/up.svg" onClick={() => this.sortBy('sport', true)}/>
             <img className="sort" alt="Sort Descending" src="img/down.svg" onClick={() => this.sortBy('sport', false)} />
           </th>
-          <th># OF GOLD MEDALS WON
+          <th>Number of gold medal won
             <img className="sort" alt="Sort Ascending" src="img/up.svg" onClick={() => this.sortBy('count', true)}/>
             <img className="sort" alt="Sort Descending" src="img/down.svg" onClick={() => this.sortBy('count', false)} />
           </th>
-          <th>% OF GOLD MEDAL WINS
+          <th>% of gold medal wins
             <img className="sort" alt="Sort Ascending" src="img/up.svg" onClick={() => this.sortBy('percent', true)}/>
             <img className="sort" alt="Sort Descending" src="img/down.svg" onClick={() => this.sortBy('percent', false)} />
           </th>
